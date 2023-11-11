@@ -4,5 +4,5 @@
 
 repositório de conteúdo das aulas do curso técnico de informática
 
-### Autor
+### Autor 
 Thiago Nascimento
