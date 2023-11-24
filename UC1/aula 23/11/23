@@ -1,0 +1,199 @@
+enac@senac-VirtualBox:~/Documentos$ rm -Rfv */
+foi removido o diretório: 'senac/'
+removido 'SENAC/tat/senac.txt'
+removido 'SENAC/tat/tatuape.txt'
+foi removido o diretório: 'SENAC/tat'
+foi removido o diretório: 'SENAC/tit'
+foi removido o diretório: 'SENAC/cas'
+foi removido o diretório: 'SENAC/pen'
+foi removido o diretório: 'SENAC/bra'
+foi removido o diretório: 'SENAC/sip'
+foi removido o diretório: 'SENAC/'
+foi removido o diretório: 'tatuape/'
+foi removido o diretório: 'Tatuapé/'
+senac@senac-VirtualBox:~/Documentos$ ls
+senac@senac-VirtualBox:~/Documentos$ mkdir SENAC/ 
+senac@senac-VirtualBox:~/Documentos$ ls
+SENAC
+senac@senac-VirtualBox:~/Documentos$ cd SENAC
+senac@senac-VirtualBox:~/Documentos/SENAC$ 
+senac@senac-VirtualBox:~/Documentos/SENAC$ mkdir tat/ bra/ pen/
+senac@senac-VirtualBox:~/Documentos/SENAC$ ls
+bra  pen  tat
+senac@senac-VirtualBox:~/Documentos/SENAC$ cd tat
+senac@senac-VirtualBox:~/Documentos/SENAC/tat$ mkdir tei.txt/
+senac@senac-VirtualBox:~/Documentos/SENAC/tat$ ls
+tei.txt
+senac@senac-VirtualBox:~/Documentos/SENAC/tat$ cd bra
+bash: cd: bra: Arquivo ou diretório inexistente
+senac@senac-VirtualBox:~/Documentos/SENAC/tat$ cd SENAC
+senac@senac-VirtualBox:~/Documentos/SENAC/tat$ cd ..
+senac@senac-VirtualBox:~/Documentos/SENAC$ cd bra
+senac@senac-VirtualBox:~/Documentos/SENAC/bra$ mkdir tst.txt/
+senac@senac-VirtualBox:~/Documentos/SENAC/bra$ ls
+tst.txt
+senac@senac-VirtualBox:~/Documentos/SENAC/bra$ cd ..
+senac@senac-VirtualBox:~/Documentos/SENAC$ cd pen
+senac@senac-VirtualBox:~/Documentos/SENAC/pen$ mkdir tae.txt/
+senac@senac-VirtualBox:~/Documentos/SENAC/pen$ ls
+tae.txt
+senac@senac-VirtualBox:~/Documentos/SENAC/pen$ cd ..
+senac@senac-VirtualBox:~/Documentos/SENAC$ cd ..
+senac@senac-VirtualBox:~/Documentos$ mkdir SESC/
+senac@senac-VirtualBox:~/Documentos$ ls
+SENAC  SESC
+senac@senac-VirtualBox:~/Documentos$ cd SESC
+senac@senac-VirtualBox:~/Documentos/SESC$ mkdir bel/
+senac@senac-VirtualBox:~/Documentos/SESC$ mkidr san/
+Experimente: sudo apt install <deb name>
+senac@senac-VirtualBox:~/Documentos/SESC$ mkdir san/
+senac@senac-VirtualBox:~/Documentos/SESC$ mkdir ita/
+senac@senac-VirtualBox:~/Documentos/SESC$ ls
+bel  ita  san
+senac@senac-VirtualBox:~/Documentos/SESC$ cd ..
+senac@senac-VirtualBox:~/Documentos$ cd tat
+bash: cd: tat: Arquivo ou diretório inexistente
+senac@senac-VirtualBox:~/Documentos$ cd SENAC
+senac@senac-VirtualBox:~/Documentos/SENAC$ cd tat
+senac@senac-VirtualBox:~/Documentos/SENAC/tat$ echo > tei.txt
+senac@senac-VirtualBox:~/Documentos/SENAC/tat$ cd ..
+senac@senac-VirtualBox:~/Documentos/SENAC$ cd bra
+senac@senac-VirtualBox:~/Documentos/SENAC/bra$ touch tst.txt
+senac@senac-VirtualBox:~/Documentos/SENAC/bra$ cd ..
+senac@senac-VirtualBox:~/Documentos/SENAC$ cd pen
+senac@senac-VirtualBox:~/Documentos/SENAC/pen$ touch tae.txt
+senac@senac-VirtualBox:~/Documentos/SENAC/pen$ ls
+tae.txt
+senac@senac-VirtualBox:~/Documentos/SENAC/pen$ cd ..
+senac@senac-VirtualBox:~/Documentos/SENAC$ cd ..
+senac@senac-VirtualBox:~/Documentos$ cd SESC
+senac@senac-VirtualBox:~/Documentos/SESC$ ls
+bel  ita  san
+senac@senac-VirtualBox:~/Documentos/SESC$ cd bel 
+senac@senac-VirtualBox:~/Documentos/SESC/bel$ touch artes.txt
+senac@senac-VirtualBox:~/Documentos/SESC/bel$ cd ..
+senac@senac-VirtualBox:~/Documentos/SESC$ cd ita
+senac@senac-VirtualBox:~/Documentos/SESC/ita$ touch musica.txt 
+senac@senac-VirtualBox:~/Documentos/SESC/ita$ cd ..
+senac@senac-VirtualBox:~/Documentos/SESC$ cd san
+senac@senac-VirtualBox:~/Documentos/SESC/san$ touch leitura.txt
+senac@senac-VirtualBox:~/Documentos/SESC/san$ cd ..
+senac@senac-VirtualBox:~/Documentos/SESC$ cd ..
+senac@senac-VirtualBox:~/Documentos$ mkdir SENAI
+senac@senac-VirtualBox:~/Documentos$ ls
+SENAC  SENAI  SESC
+senac@senac-VirtualBox:~/Documentos$ cd SENAI
+senac@senac-VirtualBox:~/Documentos/SENAI$ ls
+senac@senac-VirtualBox:~/Documentos/SENAI$ mkdir bra / cor/ gua/
+senac@senac-VirtualBox:~/Documentos/SENAI$ mkdir bra/ cor/ gua/
+senac@senac-VirtualBox:~/Documentos/SENAI$ ls
+bra  cor  gua
+senac@senac-VirtualBox:~/Documentos/SENAI$ cd bra
+senac@senac-VirtualBox:~/Documentos/SENAI/bra$ touch fresca.txt
+senac@senac-VirtualBox:~/Documentos/SENAI/bra$ cd ..
+senac@senac-VirtualBox:~/Documentos/SENAI$ cd cor
+senac@senac-VirtualBox:~/Documentos/SENAI/cor$ touch torno.txt
+senac@senac-VirtualBox:~/Documentos/SENAI/cor$ cd ..
+senac@senac-VirtualBox:~/Documentos/SENAI$ cd gua
+senac@senac-VirtualBox:~/Documentos/SENAI/gua$ touch solda.txt
+senac@senac-VirtualBox:~/Documentos/SENAI/gua$ ls
+solda.txt
+senac@senac-VirtualBox:~/Documentos/SENAI/gua$ cd ..
+senac@senac-VirtualBox:~/Documentos/SENAI$ cd cor
+senac@senac-VirtualBox:~/Documentos/SENAI/cor$ ls
+torno.txt
+senac@senac-VirtualBox:~/Documentos/SENAI/cor$ cd ..
+senac@senac-VirtualBox:~/Documentos/SENAI$ cd bra
+senac@senac-VirtualBox:~/Documentos/SENAI/bra$ ls
+fresca.txt
+senac@senac-VirtualBox:~/Documentos/SENAI/bra$ cd ..
+senac@senac-VirtualBox:~/Documentos/SENAI$ cd ..
+senac@senac-VirtualBox:~/Documentos$ 
+senac@senac-VirtualBox:~/Documentos/SESI$ mkdir bel/ car/ bra/
+senac@senac-VirtualBox:~/Documentos/SESI$ ls
+bel  bra  car
+senac@senac-VirtualBox:~/Documentos/SESI$ cd bel
+senac@senac-VirtualBox:~/Documentos/SESI/bel$ touch fund1.txt
+senac@senac-VirtualBox:~/Documentos/SESI/bel$ ls
+fund1.txt
+senac@senac-VirtualBox:~/Documentos/SESI/bel$ cd ..
+senac@senac-VirtualBox:~/Documentos/SESI$ cd bra
+senac@senac-VirtualBox:~/Documentos/SESI/bra$ touch fundi2.txt
+senac@senac-VirtualBox:~/Documentos/SESI/bra$ ls
+fundi2.txt
+senac@senac-VirtualBox:~/Documentos/SESI/bra$ cd ..
+senac@senac-VirtualBox:~/Documentos/SESI$ cd car
+senac@senac-VirtualBox:~/Documentos/SESI/car$ touch tec.txt
+senac@senac-VirtualBox:~/Documentos/SESI/car$ ls
+tec.txt
+senac@senac-VirtualBox:~/Documentos/SESI/car$ cd ..
+senac@senac-VirtualBox:~/Documentos/SESI$ cd ..
+senac@senac-VirtualBox:~/Documentos$ ls
+SENAC  SENAI  SESC  SESI
+senac@senac-VirtualBox:~$ ls
+'Área de Trabalho'   Downloads   Modelos   Público
+ Documentos          Imagens     Música    Vídeos
+senac@senac-VirtualBox:~$ touch senac.txt
+senac@senac-VirtualBox:~$ ls
+'Área de Trabalho'   Downloads   Modelos   Público     Vídeos
+ Documentos          Imagens     Música    senac.txt
+senac@senac-VirtualBox:~$ cp -v senac.txt senai.txt
+'senac.txt' -> 'senai.txt'
+senac@senac-VirtualBox:~$ ls
+'Área de Trabalho'   Downloads   Modelos   Público     senai.txt
+ Documentos          Imagens     Música    senac.txt   Vídeos
+senac@senac-VirtualBox:~$ cp -v senai.txt seci.txt
+'senai.txt' -> 'seci.txt'
+senac@senac-VirtualBox:~$ ls
+'Área de Trabalho'   Downloads   Modelos   Público    senac.txt   Vídeos
+ Documentos          Imagens     Música    seci.txt   senai.txt
+senac@senac-VirtualBox:~$ mv -v seci.txt sesi.txt
+renomeado 'seci.txt' -> 'sesi.txt'
+senac@senac-VirtualBox:~$ ls
+'Área de Trabalho'   Downloads   Modelos   Público     senai.txt   Vídeos
+ Documentos          Imagens     Música    senac.txt   sesi.txt
+senac@senac-VirtualBox:~$ mv -v sena
+senac.txt  senai.txt  
+senac@senac-VirtualBox:~$ mv -v senac.txt senai.txt sesi.txt Documentos/
+renomeado 'senac.txt' -> 'Documentos/senac.txt'
+renomeado 'senai.txt' -> 'Documentos/senai.txt'
+renomeado 'sesi.txt' -> 'Documentos/sesi.txt'
+senac@senac-VirtualBox:~$ ls
+'Área de Trabalho'   Downloads   Modelos   Público
+ Documentos          Imagens     Música    Vídeos
+senac@senac-VirtualBox:~$ cd Documentos/
+senac@senac-VirtualBox:~/Documentos$ ls
+SENAC  senac.txt  SENAI  senai.txt  SESC  SESI  sesi.txt
+senac@senac-VirtualBox:~/Documentos$ touch sesc.txt
+senac@senac-VirtualBox:~/Documentos$ ls
+SENAC  senac.txt  SENAI  senai.txt  SESC  sesc.txt  SESI  sesi.txt
+senac@senac-VirtualBox:~/Documentos$ mv -v senac.txt SENAC/
+renomeado 'senac.txt' -> 'SENAC/senac.txt'
+senac@senac-VirtualBox:~/Documentos$ mv -v senai.txt SENAI/
+renomeado 'senai.txt' -> 'SENAI/senai.txt'
+senac@senac-VirtualBox:~/Documentos$ mv -v sesi.txt SESI/
+renomeado 'sesi.txt' -> 'SESI/sesi.txt'
+senac@senac-VirtualBox:~/Documentos$ mv -v sesc.txt SESC/
+renomeado 'sesc.txt' -> 'SESC/sesc.txt'
+senac@senac-VirtualBox:~/Documentos$ ls
+SENAC  SENAI  SESC  SESI
+senac@senac-VirtualBox:~/Documentos$ cd senac
+bash: cd: senac: Arquivo ou diretório inexistente
+senac@senac-VirtualBox:~/Documentos$ cd SENAC/
+senac@senac-VirtualBox:~/Documentos/SENAC$ ls
+bra  pen  senac.txt  tat
+senac@senac-VirtualBox:~/Documentos/SENAC$ cd ..
+senac@senac-VirtualBox:~/Documentos$ cd SESC
+senac@senac-VirtualBox:~/Documentos/SESC$ ls
+bel  ita  san  sesc.txt
+senac@senac-VirtualBox:~/Documentos/SESC$ cd ..
+senac@senac-VirtualBox:~/Documentos$ cd SENAI/
+senac@senac-VirtualBox:~/Documentos/SENAI$ ls
+bra  cor  gua  senai.txt
+senac@senac-VirtualBox:~/Documentos/SENAI$ cd ..
+senac@senac-VirtualBox:~/Documentos$ cd SESI/
+senac@senac-VirtualBox:~/Documentos/SESI$ ls
+bel  bra  car  sesi.txt
+senac@senac-VirtualBox:~/Documentos/SESI$ cd ..
+senac@senac-VirtualBox:~/Documentos$ cd 
+
